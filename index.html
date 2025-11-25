@@ -1,109 +1,44 @@
-<!-- index.html -->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Cristiano Ronaldo — Fan Page</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="index.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CR7 Universe</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="page">
-    <header class="header">
-      <div class="logo">CR7</div>
-      <nav class="nav">
-        <a href="#about">About</a>
-        <a href="#stats">Stats</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <div class="controls">
-        <button id="themeToggle" aria-label="Toggle theme">🌙</button>
-        <div class="controls">
-    <a href="login.html" class="login-btn">LOGIN</a>
-</div>
 
-      </div>
-    </header>
+<div class="stars"></div>
+<div class="stars2"></div>
+<div class="stars3"></div>
 
-    <main>
-      <section id="hero" class="hero" aria-label="Hero">
-        <div class="hero-stage" id="heroStage">
-          <div class="hero-card layer back"></div>
-          <div class="hero-card layer mid">
-            <div class="player-wrap">
-              <img id="heroImg" src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Cristiano_Ronaldo_2018.jpg" alt="Cristiano Ronaldo">
-            </div>
-          </div>
-          <div class="hero-card layer front">
-            <h1>Cristiano Ronaldo</h1>
-            <p class="lead">Forward · Goal Machine · Living Legend</p>
-            <div class="hero-actions">
-              <button id="showFacts">Show Facts</button>
-              <a href="#contact" class="cta">Join Fan Club</a>
-            </div>
-          </div>
-        </div>
-        <svg class="hero-deco" viewBox="0 0 800 400" preserveAspectRatio="none" aria-hidden="true">
-          <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#ffb199"/><stop offset="1" stop-color="#ff0844"/></linearGradient></defs>
-          <path d="M0 160 C200 60 400 260 800 120 L800 400 L0 400 Z" fill="url(#g)" opacity="0.12"></path>
-        </svg>
-      </section>
+<header class="hero">
+  <h1>CR7 UNIVERSE</h1>
+  <p>The Legend • The Machine • The Era</p>
+  <a href="#" class="btn">ENTER REALM</a>
+</header>
 
-      <section id="about" class="panel">
-        <div class="panel-inner">
-          <h2>About</h2>
-          <p id="aboutText">Cristiano Ronaldo dos Santos Aveiro is a Portuguese professional footballer known for his scoring, athleticism, and longevity at the top level.</p>
-        </div>
-      </section>
+<section class="about">
+  <h2>About Cristiano Ronaldo</h2>
+  <p>Cristiano Ronaldo is a global icon known for his unmatched dedication, explosive athleticism, and record-breaking achievements that continue to define the football world.</p>
+</section>
 
-      <section id="stats" class="panel stats-panel">
-        <div class="panel-inner">
-          <h2>Key Stats</h2>
-          <div class="stats-grid">
-            <div class="stat"><div class="stat-value" id="goals">850+</div><div class="stat-label">Career Goals</div></div>
-            <div class="stat"><div class="stat-value" id="apps">1100+</div><div class="stat-label">Appearances</div></div>
-            <div class="stat"><div class="stat-value" id="titles">35+</div><div class="stat-label">Major Titles</div></div>
-            <div class="stat"><div class="stat-value" id="awards">5</div><div class="stat-label">Ballon d'Ors</div></div>
-          </div>
-        </div>
-      </section>
-
-      <section id="gallery" class="panel gallery-panel">
-        <div class="panel-inner">
-          <h2>Gallery</h2>
-          <div class="gallery-grid" id="galleryGrid">
-            <div class="gcell"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Cristiano_Ronaldo_2018.jpg" alt=""></div>
-            <div class="gcell"><img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Cristiano_Ronaldo_training_2018.jpg" alt=""></div>
-            <div class="gcell"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Cristiano_Ronaldo_2019.jpg" alt=""></div>
-            <div class="gcell"><img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Cristiano_Ronaldo_2017.jpg" alt=""></div>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact" class="panel contact-panel">
-        <div class="panel-inner">
-          <h2>Contact the Fan Club - for further clarify</h2>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div>© CR7 Fan Page</div>
-      <div id="serverTime"></div>
-    </footer>
-<div class="keymoments-wrapper">
-  <a href="key.html" class="keymoments-btn">
-    <span class="inner-text">KEY<br>MOMENTS</span>
-  </a>
-</div>
-
-
-    <div id="toast" class="toast" aria-hidden="true"></div>
+<section class="gallery">
+  <h2>Gallery</h2>
+  <div class="grid">
+    <div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Cristiano_Ronaldo_2018.jpg"></div>
+    <div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Cristiano_Ronaldo_training_2018.jpg"></div>
+    <div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Cristiano_Ronaldo_2019.jpg"></div>
+    <div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Cristiano_Ronaldo_2017.jpg"></div>
   </div>
+</section>
 
-  <script src="index.js" defer></script>
+<footer class="footer">
+  © 2025 CR7 Universe
+</footer>
+
 </body>
 </html>
+
+  
