@@ -1,7 +1,13 @@
-# CR7-repo
-CREATING A WEBSITE OF RONALDO USING FRONTEND TECHNOLOGIES AND FEW BACKEND STACKS TO DEVELOP THE LEARNING OF FULL STACK DEVELOPMENT
- 
-1.HTML 
-2.CSS
-3.JAVASCRIPT
-4.PHP
+# CR7 Website Project
+
+This project is a simple website based on Cristiano Ronaldo, created to practice frontend and basic backend development.  
+It focuses on improving full-stack learning using basic web technologies.
+
+## Technologies Used
+- HTML  
+- CSS  
+- JavaScript  
+- PHP  
+
+## Purpose
+To practice web development concepts and understand how frontend and backend work together.
